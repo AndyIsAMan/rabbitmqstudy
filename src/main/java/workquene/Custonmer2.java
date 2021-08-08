@@ -1,4 +1,4 @@
-package WorkQuene;
+package workquene;
 
 import com.rabbitmq.client.*;
 import helloword.utils.RabbitMQUtils;

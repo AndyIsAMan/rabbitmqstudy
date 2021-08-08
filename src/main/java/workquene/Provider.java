@@ -1,8 +1,7 @@
-package WorkQuene;
+package workquene;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.MessageProperties;
 import helloword.utils.RabbitMQUtils;
 
 import java.io.IOException;
