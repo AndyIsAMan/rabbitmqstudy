@@ -38,7 +38,7 @@ public class Provider {
         // 参数3： exclusive 是否独占队列 当前队列只允许当前的连接可以用 其他的队列不可以用 true代表独占队列 false代表不独占
         // 参数4： autoDelete 是否在消费完成后自动删除队列 true 自动删除 false 不自动删除
         // 参数5： 额外参数 附加参数
-        channel.queueDeclare("hello", false, false, false, null);
+        channel.queueDeclare("aa", true, false, false, null);
         // 发布消息
         // 参数1： 交换机名称 参数2：队列名称 参数3：传递消息的额外设置 参数4： 消息的具体内容
         for (int i = 0; i < 100; i++) {
